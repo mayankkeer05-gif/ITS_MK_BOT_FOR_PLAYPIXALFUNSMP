@@ -1,13 +1,13 @@
 {
-  "name": "ITS_MK_BOT_01",
+  "name": "ITS_ANU_BOT",
   "bot-account": {
-    "username": "ITS_MK_BOT_01",
+    "username": "ITS_ANU_BOT",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "ITS-MK-BLOCKS.aternos.me",
-    "port": 45083,
+    "ip": "PLAYPIXALFUNSMP.aternos.me",
+    "port": 43045,
     "version": "",
     "try-creative": false
   },
@@ -37,8 +37,8 @@
     "chat-messages": {
       "enabled": false,
       "repeat": false,
-      "repeat-delay": 1000,
-      "messages": ["MADE BY ITS_MK_PLAYS"]
+      "repeat-delay": 600,
+      "messages": ["MADE BY ITS_MK_PLAYS | DISCORD - https://discord.gg/vgPVRRQ2tT"]
     },
     "chat-log": true,
     "auto-reconnect": true,
