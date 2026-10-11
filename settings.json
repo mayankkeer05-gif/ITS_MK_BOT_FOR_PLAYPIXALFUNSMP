@@ -1,0 +1,92 @@
+{
+  "name": "ITS_MK_BOT_01",
+  "bot-account": {
+    "username": "ITS_MK_BOT_01",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "ITS-MK-BLOCKS.aternos.me",
+    "port": 45083,
+    "version": "",
+    "try-creative": false
+  },
+  "physics": {
+    "enabled": true
+  },
+  "leave-rejoin": {
+    "enabled": true,
+    "stay-minutes": 60,
+    "away-seconds": 15
+  },
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 100,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "9876543210"
+    },
+    "anti-afk": {
+      "enabled": false,
+      "sneak": false
+    },
+    "chat-messages": {
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 1000,
+      "messages": ["MADE BY ITS_MK_PLAYS"]
+    },
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 3000,
+    "max-reconnect-delay": 60000
+  },
+  "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": false,
+      "radius": 3,
+      "speed": 4000
+    },
+    "look-around": {
+      "enabled": false,
+      "interval": 6000
+    },
+    "random-jump": {
+      "enabled": true,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": false,
+    "combat": true,
+    "beds": false,
+    "chat": true,
+    "console-commands": true
+  },
+  "combat": {
+    "attack-mobs": true,
+    "auto-eat": true
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
+  },
+  "discord": {
+    "enabled": false,
+    "webhookUrl": "",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": false
+    }
+  },
+  "chat": {
+    "respond": true,
+    "admins": []
+  }
+}
